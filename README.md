@@ -1,6 +1,7 @@
 # isPrime
 
-This module allows you to easily check wether a number is prime or not
+This module allows you to easily check wether a number is prime or not.
+
 
 ## Usage Examples
 
@@ -16,5 +17,13 @@ import { isPrime } from "https://deno.land/x/isprime/mod.ts"
 // Will return true for a prime number
 const primeNumber = 11
 console.log(`Is ${primeNumber} a prime number? ${isPrime(primeNumber)}`)
+
+```
+
+## Execute Unit Tests
+
+```sh
+
+deno test https://deno.land/x/isprime/src/is-prime.spec.ts
 
 ```
