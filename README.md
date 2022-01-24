@@ -3,12 +3,7 @@
 This module allows you to easily check wether a number is prime or not.
 
 
-## Usage Examples
-
-```sh 
-deno run https://deno.land/x/isprime/usage-example.ts
-```
-
+## Usage Example
 
 ```ts
 
@@ -18,6 +13,15 @@ const numberUnderTest = 11
 console.log(isPrime(numberUnderTest)) // true
 
 ```
+
+## Execute Usage Example 
+
+```sh 
+
+deno run https://deno.land/x/isprime/usage-example.ts
+
+```
+
 
 ## Execute Unit Tests
 
