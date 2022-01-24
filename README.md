@@ -1,20 +1,32 @@
 # isPrime
 
-This module allows you to easily check wether a number is prime or not
+This module allows you to easily check wether a number is prime or not.
 
-## Usage Examples
 
-```sh 
-deno run https://deno.land/x/isprime/usage-example.ts
-```
-
+## Usage Example
 
 ```ts
 
 import { isPrime } from "https://deno.land/x/isprime/mod.ts"
 
-// Will return true for a prime number
-const primeNumber = 11
-console.log(`Is ${primeNumber} a prime number? ${isPrime(primeNumber)}`)
+const numberUnderTest = 11
+console.log(isPrime(numberUnderTest)) // true
+
+```
+
+## Execute Usage Example 
+
+```sh 
+
+deno run https://deno.land/x/isprime/usage-example.ts
+
+```
+
+
+## Execute Unit Tests
+
+```sh
+
+deno test https://deno.land/x/isprime/src/is-prime.spec.ts
 
 ```
