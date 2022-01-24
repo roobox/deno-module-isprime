@@ -11,7 +11,7 @@ deno run https://deno.land/x/isprime/usage-example.ts
 
 ```ts
 
-import { isPrime } from "https://deno.land.x/isprime/mod.ts"
+import { isPrime } from "https://deno.land/x/isprime/mod.ts"
 
 // Will return true for a prime number
 const primeNumber = 11
