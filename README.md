@@ -14,9 +14,8 @@ deno run https://deno.land/x/isprime/usage-example.ts
 
 import { isPrime } from "https://deno.land/x/isprime/mod.ts"
 
-// Will return true for a prime number
-const primeNumber = 11
-console.log(`Is ${primeNumber} a prime number? ${isPrime(primeNumber)}`)
+const numberUnderTest = 11
+console.log(isPrime(numberUnderTest)) // true
 
 ```
 
